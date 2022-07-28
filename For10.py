@@ -7,5 +7,5 @@ def main(list1):
         list: return  answer
     """
     for i in range(len(list1)):
-        list1[i] == list1[i].capitalize()
+        list1[i] = list1[i].capitalize()
     return list1
