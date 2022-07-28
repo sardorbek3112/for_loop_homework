@@ -6,4 +6,10 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    s = ''
+    for i in range(n):
+        if i == n-1:
+            s += str(i)
+        else:
+            s += str(i) + ','
+    return s
