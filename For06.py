@@ -8,6 +8,6 @@ def main(A,B):
         int: return  answer
     """
     g = 0
-    for i in range(A, B +1):
+    for i in range(A, B):
         g += i
     return g
