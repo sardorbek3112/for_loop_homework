@@ -9,5 +9,5 @@ def main(k,n):
     """
     a = []
     for i in range(n):
-        a += [i]
+        a += [k]
     return a
